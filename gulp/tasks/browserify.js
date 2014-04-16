@@ -1,6 +1,6 @@
 var browserify = require('browserify');
 var gulp = require('gulp');
-var livereload = require('gulp-livereload');
+//var livereload = require('gulp-livereload');
 var source = require('vinyl-source-stream');
 var handleErrors = require('../util/handleErrors');
 
@@ -14,5 +14,5 @@ module.exports = function() {
 		.on('error', handleErrors)
 		.pipe(source('app.js'))
 		.pipe(gulp.dest('./build/'))
-		.pipe(livereload());
+		//.pipe(livereload());
 };
