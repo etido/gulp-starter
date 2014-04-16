@@ -10,7 +10,7 @@ module.exports = function(){
 	gulp.watch('src/sass/**', ['compass']);
 	gulp.watch('src/images/**', ['images']);
 	gulp.watch('*.html',notifylivereload);
-	gulp.watch('build/*',notifylivereload);
+	gulp.watch('build/**',notifylivereload);
 	//livereload();
 
 };
