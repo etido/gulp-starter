@@ -8,7 +8,7 @@ gulp.task('browserify', function(){
 	return browserify({
 			//entries: ['./src/javascript/app.coffee','./src/javascript/test.js'],
 			//extensions: ['.coffee', '.hbs','.js']
-			entries: ['./src/javascript/test.js'],
+			entries: ['./src/javascript/map-canvas.js'],
 			extensions: ['.js']
 		})
 		.require('backbone/node_modules/underscore', { expose: 'underscore' })

@@ -16,7 +16,7 @@ module.exports = Backbone.View.extend
 			title: 'Gulp All The Things!'
 			description: 'Starter Gulp - Browserify project equipped to handle the following:'	
 			tools: [
-				'vBrowserify-shim'
+				'Browserify-shim'
 				'Browserify'
 				'CoffeeScript'
 				'Compass'
